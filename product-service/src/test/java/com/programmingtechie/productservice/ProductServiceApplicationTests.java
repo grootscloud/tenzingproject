@@ -53,7 +53,7 @@ class ProductServiceApplicationTests {
         //fixed the code
     }
 
-    @Test
+    @Test // This was a test comment
     void doesNotDoAnything1(){
         //fixed the code
     }
