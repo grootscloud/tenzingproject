@@ -50,7 +50,17 @@ class ProductServiceApplicationTests {
 
     @Test
     void doesNotDoAnything(){
+        //fixed the code
+    }
 
+    @Test // This was a test comment
+    void doesNotDoAnything1(){
+        //fixed the code
+    }
+
+    @Test // simulating a fix
+    void doesNotDoAnything2(){
+        //fixed the code
     }
 
     private ProductRequest getProductRequest() {
