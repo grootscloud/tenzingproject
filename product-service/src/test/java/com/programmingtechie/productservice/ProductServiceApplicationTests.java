@@ -48,6 +48,11 @@ class ProductServiceApplicationTests {
                 .body("price", Matchers.is(productRequest.price().intValueExact()));
     }
 
+    @Test
+    void doesNotDoAnything(){
+
+    }
+
     private ProductRequest getProductRequest() {
         return new ProductRequest("iPhone 13", "iPhone 13", BigDecimal.valueOf(1200));
     }
