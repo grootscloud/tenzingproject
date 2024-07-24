@@ -58,7 +58,7 @@ class ProductServiceApplicationTests {
         //fixed the code
     }
 
-    @Test
+    @Test // simulating a fix
     void doesNotDoAnything2(){
         //fixed the code
     }
