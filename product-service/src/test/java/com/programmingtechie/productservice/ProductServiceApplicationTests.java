@@ -53,6 +53,16 @@ class ProductServiceApplicationTests {
 
     }
 
+    @Test
+    void doesNotDoAnything1(){
+
+    }
+
+    @Test
+    void doesNotDoAnything2(){
+
+    }
+
     private ProductRequest getProductRequest() {
         return new ProductRequest("iPhone 13", "iPhone 13", BigDecimal.valueOf(1200));
     }
